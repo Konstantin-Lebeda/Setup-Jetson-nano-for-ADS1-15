@@ -1,4 +1,14 @@
 ## First steps with Jetson nano
+
+### Update and upgrade your system:
+
+```shell
+sudo apt update
+```
+```shell
+sudo apt upgrade
+```
+
 ### Set your Python install to Python 3 Default:
 
 ```shell
