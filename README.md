@@ -1,4 +1,4 @@
-## First steps with Jetson nano ubuntu 18.04LTS
+## First steps with Jetson nano (ubuntu 18.04LTS)
 
 ### Update and upgrade your system:
 
