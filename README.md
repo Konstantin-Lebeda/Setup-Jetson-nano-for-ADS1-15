@@ -142,13 +142,16 @@ python3 blinkatest.py
 ### Install Adafruit Python ADS1115 library:
 
 ```shell
+cd ~
+```
+```shell
 sudo pip3 install adafruit-ads1x15
 ```
 
 ### Check that everything ok with Adafruit examples:
 
 ```shell
-cd examples
+cd Setup-Jetson-nano-for-ADS1115/examples
 ```
 ```shell
 python3 simpletest.py
