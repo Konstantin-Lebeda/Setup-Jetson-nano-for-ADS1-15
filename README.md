@@ -1,4 +1,4 @@
-## First steps with Jetson nano
+## First steps with Jetson nano ubuntu 18.04LTS
 
 ### Update and upgrade your system:
 
@@ -116,3 +116,44 @@ sudo reboot
 pip3 install adafruit-blinka
 ```
 
+*That's pretty much it! You're now ready to test.*
+
+### Clone git repo:
+
+```shell
+sudo apt install git
+```
+```shell
+cd ~
+```
+```shell
+git clone https://github.com/Konstantin-Lebeda/Setup-Jetson-nano-for-ADS1115.git
+```
+```shell
+cd Setup-Jetson-nano-for-ADS1115
+```
+
+### Run blinkatest by the command line:
+
+```shell
+python3 blinkatest.py
+```
+
+### Install Adafruit Python ADS1115 library:
+
+```shell
+sudo pip3 install adafruit-ads1x15
+```
+
+### Check that everything ok with Adafruit examples:
+
+```shell
+cd examples
+```
+```shell
+python3 simpletest.py
+```
+```shell
+python3 differential.py
+```
+### Enjoy your setup system
